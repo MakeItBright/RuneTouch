@@ -1,0 +1,30 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode Patch Files
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.mode2v3
+*.xcodeproj/*.perspectivev3
+
+# User data
+*.moved-aside
+*.swp
+*.lock
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Simulator logs
+coreSimulator/
