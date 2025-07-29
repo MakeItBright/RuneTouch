@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		31B6AFF22E3994BD00B0C85E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 31B6AFF12E3994B900B0C85E /* README */; };
+		31B6AFF42E3994D400B0C85E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 31B6AFF32E3994D200B0C85E /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		31B6AFCD2E3990F200B0C85E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		31B6AFBA2E3990F000B0C85E /* RuneTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuneTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B6AFCC2E3990F200B0C85E /* RuneTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B6AFD62E3990F200B0C85E /* RuneTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B6AFF12E3994B900B0C85E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		31B6AFF32E3994D200B0C85E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		31B6AFB12E3990F000B0C85E = {
 			isa = PBXGroup;
 			children = (
+				31B6AFF32E3994D200B0C85E /* LICENSE */,
+				31B6AFF12E3994B900B0C85E /* README */,
 				31B6AFBC2E3990F000B0C85E /* RuneTouch */,
 				31B6AFCF2E3990F200B0C85E /* RuneTouchTests */,
 				31B6AFD92E3990F200B0C85E /* RuneTouchUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B6AFF22E3994BD00B0C85E /* README in Resources */,
+				31B6AFF42E3994D400B0C85E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
