@@ -1,5 +1,5 @@
-numpy
 matplotlib
-tensorflow
-scikit-learn
-coremltools
+numpy>=1.23
+tensorflow>=2.13
+coremltools==6.3
+scikit-learn==1.1.2

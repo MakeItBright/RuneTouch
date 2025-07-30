@@ -50,7 +50,9 @@ struct RuneTouchApp: App {
                 }
 
             case .game:
-                GameView()
+                GameView {
+                    screen = .main
+                }
             }
         }
     }
