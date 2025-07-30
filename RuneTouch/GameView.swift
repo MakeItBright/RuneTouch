@@ -9,15 +9,22 @@ import SwiftUI
 import SpriteKit
 
 struct GameView: View {
-    var scene: SKScene {
-        let scene = GameScene()
-        scene.size = CGSize(width: 390, height: 844)
-        scene.scaleMode = .resizeFill
-        return scene
+    var body: some View {
+        GeometryReader { geometry in
+            let size = geometry.size
+
+            SpriteView(scene: makeScene(size: size))
+                .ignoresSafeArea()
+        }
     }
 
-    var body: some View {
-        SpriteView(scene: scene)
-            .ignoresSafeArea()
+    func makeScene(size: CGSize) -> SKScene {
+        let scene = GameScene()
+        scene.size = size
+        scene.scaleMode = .aspectFit
+        return scene
     }
+}
+#Preview {
+    GameView()
 }
