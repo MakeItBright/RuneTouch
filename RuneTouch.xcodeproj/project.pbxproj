@@ -10,6 +10,9 @@
 		31B6AFF22E3994BD00B0C85E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31B6AFF12E3994B900B0C85E /* README.md */; };
 		31B6AFF42E3994D400B0C85E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 31B6AFF32E3994D200B0C85E /* LICENSE */; };
 		31B6AFFE2E3A418900B0C85E /* SettingsScreenService in Frameworks */ = {isa = PBXBuildFile; productRef = 31B6AFFD2E3A418900B0C85E /* SettingsScreenService */; };
+		31B6B00B2E3A479600B0C85E /* GameScene in Frameworks */ = {isa = PBXBuildFile; productRef = 31B6B00A2E3A479600B0C85E /* GameScene */; };
+		31B6B00F2E3A5C4500B0C85E /* LoggerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 31B6B00E2E3A5C4500B0C85E /* LoggerKit */; };
+		31B6B02A2E3A8B2300B0C85E /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 31B6B0292E3A8B2300B0C85E /* ZIPFoundation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +33,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311C2DE32E3AAB590080B89A /* export_coreml.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = export_coreml.py; sourceTree = "<group>"; };
+		311C2DE42E3AAB590080B89A /* inspect_runes.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = inspect_runes.py; sourceTree = "<group>"; };
+		311C2DE52E3AAB590080B89A /* prepare_dataset.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = prepare_dataset.py; sourceTree = "<group>"; };
+		311C2DE62E3AAB590080B89A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		311C2DE72E3AAB590080B89A /* requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		311C2DE82E3AAB590080B89A /* train_and_export.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = train_and_export.py; sourceTree = "<group>"; };
 		31B6AFBA2E3990F000B0C85E /* RuneTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuneTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B6AFCC2E3990F200B0C85E /* RuneTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B6AFD62E3990F200B0C85E /* RuneTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B6AFF12E3994B900B0C85E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31B6AFF32E3994D200B0C85E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		31B6AFFB2E3A410800B0C85E /* SettingsScreenService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SettingsScreenService; sourceTree = "<group>"; };
+		31B6B0082E3A467B00B0C85E /* GameScene */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = GameScene; sourceTree = "<group>"; };
+		31B6B00C2E3A5BDF00B0C85E /* LoggerKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LoggerKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -62,6 +73,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B6AFFE2E3A418900B0C85E /* SettingsScreenService in Frameworks */,
+				31B6B00B2E3A479600B0C85E /* GameScene in Frameworks */,
+				31B6B00F2E3A5C4500B0C85E /* LoggerKit in Frameworks */,
+				31B6B02A2E3A8B2300B0C85E /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311C2DE92E3AAB590080B89A /* MLTools */ = {
+			isa = PBXGroup;
+			children = (
+				311C2DE32E3AAB590080B89A /* export_coreml.py */,
+				311C2DE42E3AAB590080B89A /* inspect_runes.py */,
+				311C2DE52E3AAB590080B89A /* prepare_dataset.py */,
+				311C2DE62E3AAB590080B89A /* README.md */,
+				311C2DE72E3AAB590080B89A /* requirements.txt */,
+				311C2DE82E3AAB590080B89A /* train_and_export.py */,
+			);
+			path = MLTools;
+			sourceTree = "<group>";
+		};
 		31B6AFB12E3990F000B0C85E = {
 			isa = PBXGroup;
 			children = (
+				31B6B00C2E3A5BDF00B0C85E /* LoggerKit */,
+				31B6B0082E3A467B00B0C85E /* GameScene */,
 				31B6AFFB2E3A410800B0C85E /* SettingsScreenService */,
 				31B6AFF32E3994D200B0C85E /* LICENSE */,
 				31B6AFF12E3994B900B0C85E /* README.md */,
@@ -92,6 +121,7 @@
 				31B6AFCF2E3990F200B0C85E /* RuneTouchTests */,
 				31B6AFD92E3990F200B0C85E /* RuneTouchUITests */,
 				31B6AFBB2E3990F000B0C85E /* Products */,
+				311C2DE92E3AAB590080B89A /* MLTools */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +156,9 @@
 			name = RuneTouch;
 			packageProductDependencies = (
 				31B6AFFD2E3A418900B0C85E /* SettingsScreenService */,
+				31B6B00A2E3A479600B0C85E /* GameScene */,
+				31B6B00E2E3A5C4500B0C85E /* LoggerKit */,
+				31B6B0292E3A8B2300B0C85E /* ZIPFoundation */,
 			);
 			productName = RuneTouch;
 			productReference = 31B6AFBA2E3990F000B0C85E /* RuneTouch.app */;
@@ -211,6 +244,9 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				31B6AFFC2E3A418900B0C85E /* XCLocalSwiftPackageReference "SettingsScreenService" */,
+				31B6B0092E3A479600B0C85E /* XCLocalSwiftPackageReference "GameScene" */,
+				31B6B00D2E3A5C4500B0C85E /* XCLocalSwiftPackageReference "LoggerKit" */,
+				31B6B0282E3A8A9100B0C85E /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 31B6AFBB2E3990F000B0C85E /* Products */;
@@ -340,6 +376,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -397,6 +435,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -587,12 +627,44 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = SettingsScreenService;
 		};
+		31B6B0092E3A479600B0C85E /* XCLocalSwiftPackageReference "GameScene" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = GameScene;
+		};
+		31B6B00D2E3A5C4500B0C85E /* XCLocalSwiftPackageReference "LoggerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = LoggerKit;
+		};
 /* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31B6B0282E3A8A9100B0C85E /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		31B6AFFD2E3A418900B0C85E /* SettingsScreenService */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SettingsScreenService;
+		};
+		31B6B00A2E3A479600B0C85E /* GameScene */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameScene;
+		};
+		31B6B00E2E3A5C4500B0C85E /* LoggerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoggerKit;
+		};
+		31B6B0292E3A8B2300B0C85E /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31B6B0282E3A8A9100B0C85E /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
