@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		31B6AFF22E3994BD00B0C85E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31B6AFF12E3994B900B0C85E /* README.md */; };
 		31B6AFF42E3994D400B0C85E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 31B6AFF32E3994D200B0C85E /* LICENSE */; };
+		31B6AFFE2E3A418900B0C85E /* SettingsScreenService in Frameworks */ = {isa = PBXBuildFile; productRef = 31B6AFFD2E3A418900B0C85E /* SettingsScreenService */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		31B6AFD62E3990F200B0C85E /* RuneTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B6AFF12E3994B900B0C85E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31B6AFF32E3994D200B0C85E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		31B6AFFB2E3A410800B0C85E /* SettingsScreenService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SettingsScreenService; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B6AFFE2E3A418900B0C85E /* SettingsScreenService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,7 @@
 		31B6AFB12E3990F000B0C85E = {
 			isa = PBXGroup;
 			children = (
+				31B6AFFB2E3A410800B0C85E /* SettingsScreenService */,
 				31B6AFF32E3994D200B0C85E /* LICENSE */,
 				31B6AFF12E3994B900B0C85E /* README.md */,
 				31B6AFBC2E3990F000B0C85E /* RuneTouch */,
@@ -121,6 +125,7 @@
 			);
 			name = RuneTouch;
 			packageProductDependencies = (
+				31B6AFFD2E3A418900B0C85E /* SettingsScreenService */,
 			);
 			productName = RuneTouch;
 			productReference = 31B6AFBA2E3990F000B0C85E /* RuneTouch.app */;
@@ -204,6 +209,9 @@
 			);
 			mainGroup = 31B6AFB12E3990F000B0C85E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				31B6AFFC2E3A418900B0C85E /* XCLocalSwiftPackageReference "SettingsScreenService" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 31B6AFBB2E3990F000B0C85E /* Products */;
 			projectDirPath = "";
@@ -416,6 +424,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,6 +455,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +581,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		31B6AFFC2E3A418900B0C85E /* XCLocalSwiftPackageReference "SettingsScreenService" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SettingsScreenService;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31B6AFFD2E3A418900B0C85E /* SettingsScreenService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SettingsScreenService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31B6AFB22E3990F000B0C85E /* Project object */;
 }
